@@ -10,13 +10,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class CardConfig {
 
-    @Bean
-    public CardPersistencePort cardPersistence(){
-        return new CardJpaAdapter();
-    }
+	@Bean
+	CardPersistencePort cardPersistence() {
+		return new CardJpaAdapter();
+	}
 
-    @Bean
-    public CardServicePort cardService(){
-        return new CardServiceImpl(cardPersistence());
-    }
+	@Bean
+	CardServicePort cardService() {
+		return new CardServiceImpl(cardPersistence());
+	}
 }
