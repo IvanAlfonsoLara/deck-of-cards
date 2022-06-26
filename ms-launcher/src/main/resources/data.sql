@@ -1,7 +1,80 @@
-insert into BOOK (id, title, description, price) values (1,'Clean Code','A handbook of agile Software',30);
-insert into BOOK (id, title, description, price) values (2,'Playing with Java Microservices','Microservices Book',20);
-insert into BOOK (id, title, description, price) values (3,'Spring in actions','spring Book',25);
-insert into BOOK (id, title, description, price) values (4,'Head First java','java book',25);
-insert into BOOK (id, title, description, price) values (5,'Hands-on spring boot','spring boot book',40);
+    --CARD SUIT
+    INSERT INTO CARD_SUIT VALUES (1, 'Clubs'); 
+    INSERT INTO CARD_SUIT VALUES (2, 'Hearts');
+    INSERT INTO CARD_SUIT VALUES (3, 'Spades');
+    INSERT INTO CARD_SUIT VALUES (4, 'Diamonds');
 
+    --CARD TYPE   
+    INSERT INTO CARD_TYPE VALUES (1, 'A', 'Ace');
+    INSERT INTO CARD_TYPE VALUES (2, '2', 'Two');
+    INSERT INTO CARD_TYPE VALUES (3, '3', 'Three');
+    INSERT INTO CARD_TYPE VALUES (4, '4', 'Four');
+    INSERT INTO CARD_TYPE VALUES (5, '5', 'Five');
+    INSERT INTO CARD_TYPE VALUES (6, '6', 'Six');
+    INSERT INTO CARD_TYPE VALUES (7, '7', 'Seven');
+    INSERT INTO CARD_TYPE VALUES (8, '8', 'Eight');
+    INSERT INTO CARD_TYPE VALUES (9, '9', 'Nine');
+    INSERT INTO CARD_TYPE VALUES (10, '10', 'Ten');
+    INSERT INTO CARD_TYPE VALUES (11, 'J', 'Jack');
+    INSERT INTO CARD_TYPE VALUES (12, 'Q', 'Queen');
+    INSERT INTO CARD_TYPE VALUES (13, 'K', 'King');
+    
+    --CLUBS
+    INSERT INTO CARD VALUES (1, 1, 1);    
+    INSERT INTO CARD VALUES (2, 1, 2); 
+    INSERT INTO CARD VALUES (3, 1, 3); 
+    INSERT INTO CARD VALUES (4, 1, 4); 
+    INSERT INTO CARD VALUES (5, 1, 5); 
+    INSERT INTO CARD VALUES (6, 1, 6); 
+    INSERT INTO CARD VALUES (7, 1, 7); 
+    INSERT INTO CARD VALUES (8, 1, 8); 
+    INSERT INTO CARD VALUES (9, 1, 9); 
+    INSERT INTO CARD VALUES (10, 1, 10); 
+    INSERT INTO CARD VALUES (11, 1, 11); 
+    INSERT INTO CARD VALUES (12, 1, 12); 
+    INSERT INTO CARD VALUES (13, 1, 13); 
 
+    --HEARTS
+    INSERT INTO CARD VALUES (14, 2, 1);    
+    INSERT INTO CARD VALUES (15, 2, 2); 
+    INSERT INTO CARD VALUES (16, 2, 3); 
+    INSERT INTO CARD VALUES (17, 2, 4); 
+    INSERT INTO CARD VALUES (18, 2, 5); 
+    INSERT INTO CARD VALUES (19, 2, 6); 
+    INSERT INTO CARD VALUES (20, 2, 7); 
+    INSERT INTO CARD VALUES (21, 2, 8); 
+    INSERT INTO CARD VALUES (22, 2, 9); 
+    INSERT INTO CARD VALUES (23, 2, 10); 
+    INSERT INTO CARD VALUES (24, 2, 11); 
+    INSERT INTO CARD VALUES (25, 2, 12); 
+    INSERT INTO CARD VALUES (26, 2, 13); 
+
+    --SPADES
+    INSERT INTO CARD VALUES (27, 3, 1);    
+    INSERT INTO CARD VALUES (28, 3, 2); 
+    INSERT INTO CARD VALUES (29, 3, 3); 
+    INSERT INTO CARD VALUES (30, 3, 4); 
+    INSERT INTO CARD VALUES (31, 3, 5); 
+    INSERT INTO CARD VALUES (32, 3, 6); 
+    INSERT INTO CARD VALUES (33, 3, 7); 
+    INSERT INTO CARD VALUES (34, 3, 8); 
+    INSERT INTO CARD VALUES (35, 3, 9); 
+    INSERT INTO CARD VALUES (36, 3, 10); 
+    INSERT INTO CARD VALUES (37, 3, 11); 
+    INSERT INTO CARD VALUES (38, 3, 12); 
+    INSERT INTO CARD VALUES (39, 3, 13); 
+
+    --DIAMONDS
+    INSERT INTO CARD VALUES (40, 4, 1);    
+    INSERT INTO CARD VALUES (41, 4, 2); 
+    INSERT INTO CARD VALUES (42, 4, 3); 
+    INSERT INTO CARD VALUES (43, 4, 4); 
+    INSERT INTO CARD VALUES (44, 4, 5); 
+    INSERT INTO CARD VALUES (45, 4, 6); 
+    INSERT INTO CARD VALUES (46, 4, 7); 
+    INSERT INTO CARD VALUES (47, 4, 8); 
+    INSERT INTO CARD VALUES (48, 4, 9); 
+    INSERT INTO CARD VALUES (49, 4, 10); 
+    INSERT INTO CARD VALUES (50, 4, 11); 
+    INSERT INTO CARD VALUES (51, 4, 12); 
+    INSERT INTO CARD VALUES (52, 4, 13); 
