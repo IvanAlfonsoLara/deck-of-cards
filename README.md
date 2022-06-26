@@ -1,8 +1,10 @@
-# Hands-on Hexagonal Architecture With Spring Boot
-Code for Hands-on Hexagonal Architecture With Spring Boot Tutorial
+# deck-of-cards
+Appian Interview Exercise
 
-Application's architecture :
+links used to make it:
 
-![](https://cdn-images-1.medium.com/max/800/1*mBp-JAaetosptDisZe1gPg.jpeg)
+https://www.improvemagic.com/all-playing-cards-names-with-pictures/
 
-Full article: [Hands-on Hexagonal Architecture With Spring Boot](https://medium.com/javarevisited/hands-on-hexagonal-architecture-with-spring-boot-ca61f88bed8b)
+http://www.mathcs.emory.edu/~cheung/Courses/170/Syllabus/10/deck-of-cards.html
+
+https://medium.com/javarevisited/hands-on-hexagonal-architecture-with-spring-boot-ca61f88bed8b
