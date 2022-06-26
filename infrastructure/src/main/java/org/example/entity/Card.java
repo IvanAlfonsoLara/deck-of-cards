@@ -15,7 +15,7 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class Book {
+public class Card {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
