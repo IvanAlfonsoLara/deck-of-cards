@@ -9,12 +9,13 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class CardDto {
+public class TypeDto {
 
 	private Long id;
 
-	private SuitDto suit;
+	private String value;
 
-	private TypeDto type;
+	private String description;
+
 
 }
