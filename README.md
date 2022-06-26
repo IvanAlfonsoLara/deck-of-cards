@@ -1,6 +1,8 @@
 # deck-of-cards
 Appian Interview Exercise
 
+Fork of: https://github.com/sofieneBK/hands-on-hexagonal-architecture-with-spring-boot
+
 links used to make it:
 
 https://www.improvemagic.com/all-playing-cards-names-with-pictures/
