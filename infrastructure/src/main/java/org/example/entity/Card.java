@@ -25,7 +25,7 @@ public class Card {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
-	@Column(name = "NAME")
+	@Column(name = "ID")
 	private Long id;
 	
 	@ManyToOne(fetch = FetchType.LAZY)
